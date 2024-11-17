@@ -13,16 +13,16 @@ View Product Details: Navigate to a detailed product page for more information.
 Delete Functionality: Remove products from the list if needed.
 Clean UI: A user-friendly interface built using React with responsive design principles.
 ## Tech Stack
-## Backend
+### Backend
 Node.js: RESTful API service to handle search queries and perform web scraping.
 Libraries/Tools Used:
 Express Js
 Mongoose
 express (for API routing)
-## Frontend
+### Frontend
 React: For building a clean, responsive interface.
 Bootstrap CSS: For styling the components.
 React Table: For rendering sortable tables and UI elements.
-## Additional Tools
+### Additional Tools
 Axios: For API communication between frontend and backend.
 Debouncing: Implemented to optimize search functionality.
