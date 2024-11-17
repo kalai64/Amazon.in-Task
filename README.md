@@ -26,3 +26,32 @@ React Table: For rendering sortable tables and UI elements.
 ### Additional Tools
 Axios: For API communication between frontend and backend.
 Debouncing: Implemented to optimize search functionality.
+## Installation and Setup
+### Prerequisites
+Ensure the following are installed on your system:
+
+1.Node.js (v14 or higher)
+2.npm (v6 or higher)
+3.A browser for testing the application
+## Steps to Run the Application
+
+1.Clone the Repository:
+
+git clone <repository-url>
+cd <repository-directory>
+2.Install Backend Dependencies:
+
+cd backend
+npm install
+3.Start the Backend Server:
+
+node start
+By default, the server runs on http://localhost:5000.
+
+4.Install Frontend Dependencies:
+
+cd frontend
+npm install
+5.Start the Frontend Application:
+
+npm run dev
