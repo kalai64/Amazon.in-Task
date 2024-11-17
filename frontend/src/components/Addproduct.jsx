@@ -14,7 +14,7 @@ function Addproduct() {
     e.preventDefault();
     try {
       const res = await axios
-        .post("http://localhost:8000/addproduct", {
+        .post("https://amazon-in-task.onrender.com/addproduct", {
           product_name: name,
           category,
           price,

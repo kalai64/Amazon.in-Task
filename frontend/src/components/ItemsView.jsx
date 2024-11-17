@@ -8,7 +8,7 @@ function ItemsView({ searchQuery }) {
 
   const getData = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/getproducts");
+      const res = await axios.get("https://amazon-in-task.onrender.com/getproducts");
       setItems(res.data.data);
       setFilteredItems(res.data.data);
     } catch (error) {
@@ -29,7 +29,7 @@ function ItemsView({ searchQuery }) {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete("http://localhost:8000/deletedata/" + id);
+      await axios.delete("https://amazon-in-task.onrender.com/deletedata/" + id);
       getData();
     } catch (error) {
       console.log(error);

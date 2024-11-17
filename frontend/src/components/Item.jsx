@@ -11,7 +11,7 @@ function Item() {
 
   const getData = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/getiditem/" + id);
+      const res = await axios.get("https://amazon-in-task.onrender.com/getiditem/" + id);
       setProduct_name(res.data.data.product_name);
       setPrice(res.data.data.price);
       setRating(res.data.data.rating);
