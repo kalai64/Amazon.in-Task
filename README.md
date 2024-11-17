@@ -16,12 +16,13 @@ Clean UI: A user-friendly interface built using React with responsive design pri
 ## Backend
 Node.js: RESTful API service to handle search queries and perform web scraping.
 Libraries/Tools Used:
-puppeteer/cheerio (for web scraping)
+Express Js
+Mongoose
 express (for API routing)
 ## Frontend
 React: For building a clean, responsive interface.
-Tailwind CSS: For styling the components.
-React Table/DaisyUI: For rendering sortable tables and UI elements.
+Bootstrap CSS: For styling the components.
+React Table: For rendering sortable tables and UI elements.
 ## Additional Tools
 Axios: For API communication between frontend and backend.
 Debouncing: Implemented to optimize search functionality.
